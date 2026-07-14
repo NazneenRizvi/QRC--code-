@@ -1,0 +1,6 @@
+{
+  "name": "QR Code Generator",
+  "description": "A modern, highly functional QR Code Generator that supports multiple formats (URL, Text, WiFi, Contact, Phone, Email) with deep visual customization, design presets, logo overlays, and immediate high-resolution downloads.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
