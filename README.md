@@ -1,67 +1,94 @@
-# QR Studio — Professional QR Code Generator
+<h1 align="center">🔲 QR Studio</h1>
 
-QR Studio is a highly polished, single-view, glassmorphic React + TypeScript web application built with Vite and Tailwind CSS. It allows you to design and generate high-fidelity, customized QR codes entirely in your browser with zero server latency or data uploads.
+<p align="center">
+  <strong>Professional QR Code Generator Web Application</strong><br/>
+  Generate, customize, and download high-quality QR codes instantly.
+</p>
 
-## Features
-
--   **Multi-Format QR Codes**: Generate custom QR codes for URLs, Raw Text, Wi-Fi networks (with encryption controls), vCard contacts, Phone calls, Emails, and SMS messages.
--   **High-End Glassmorphic UI**: Powered by visual styles with responsive layouts, ambient background gradients, and smooth state transitions.
--   **Color Presets & Sliders**: Choose from several beautiful color style presets or customize the foreground/background color codes individually.
--   **Brand Logo Overlay**: Drop in central logos (e.g., standard logos or your own uploaded brand PNG/JPG/SVG) with custom overlay scaling.
--   **Error Correction Control**: Manually scale error correction buffers (L, M, Q, H) to maximize scan reliability when overlays are used.
--   **Client-Side Compilation**: Fully compiled on the browser using high-performance Canvas APIs. Your data never leaves your device.
--   **Live Output & Action suite**: Instantly copy to clipboard, or download high-resolution PNG image assets.
--   **Browser Persistence History**: Tracks recent generation history in your local browser cache (`localStorage`) for quick configuration recovery.
-
----
-
-## Technical Stack
-
--   **Frontend Framework**: React 18 (TypeScript)
--   **Build System**: Vite
--   **Styling Engine**: Tailwind CSS (with glassmorphic effects)
--   **Icons Pack**: Lucide React
--   **Animation Library**: Motion (from `motion/react`)
+<p align="center">
+  <a href="https://qr-studio-656b5.web.app/">
+    <img src="https://img.shields.io/badge/🌐_Live_Demo-Visit_App-6C63FF?style=for-the-badge" />
+  </a>
+  <img src="https://img.shields.io/badge/React-61DAFB?style=for-the-badge&logo=react&logoColor=black" />
+  <img src="https://img.shields.io/badge/Vite-646CFF?style=for-the-badge&logo=vite&logoColor=white" />
+  <img src="https://img.shields.io/badge/TypeScript-3178C6?style=for-the-badge&logo=typescript&logoColor=white" />
+  <img src="https://img.shields.io/badge/Tailwind_CSS-06B6D4?style=for-the-badge&logo=tailwindcss&logoColor=white" />
+</p>
 
 ---
 
-## Running Locally
+# 🚀 Live Demo
 
-To run this project locally in VS Code, follow these simple steps:
+👉 **https://qr-studio-656b5.web.app/**
 
-### Prerequisites
+---
 
-Make sure you have [Node.js](https://nodejs.org/) installed on your machine (version 18+ is recommended).
+# ✨ Features
 
-### 1. Extract the ZIP Content
-Unzip the downloaded project folder and open it in VS Code:
+- ✅ Generate QR Codes for URLs, Text, Wi-Fi, Email, SMS, Phone Numbers and vCards
+- ✅ Beautiful Glassmorphism User Interface
+- ✅ Real-time QR Preview
+- ✅ Custom Foreground & Background Colors
+- ✅ Multiple Color Presets
+- ✅ Brand Logo Overlay Support
+- ✅ Adjustable Error Correction Levels (L, M, Q, H)
+- ✅ Download High-Quality PNG Images
+- ✅ Copy QR Images to Clipboard
+- ✅ Browser History with Local Storage
+- ✅ Fully Responsive Design
+- ✅ Fast Client-Side Processing
+
+---
+
+# 🛠️ Tech Stack
+
+| Technology | Purpose |
+|------------|---------|
+| **React 18** | Frontend Framework |
+| **TypeScript** | Type-safe Development |
+| **Vite** | Fast Build Tool |
+| **Tailwind CSS** | Modern Responsive Styling |
+| **Motion** | Smooth Animations |
+| **Lucide React** | Icons |
+
+---
+
+# 📦 Getting Started
+
 ```bash
-cd qr-studio
-```
+# Clone the repository
+git clone https://github.com/NazneenRizvi/qr-studio-v2.git
 
-### 2. Install Dependencies
-Run the package manager command to install all required dependencies:
-```bash
+# Navigate to project folder
+cd qr-studio-v2
+
+# Install dependencies
 npm install
-```
 
-### 3. Start Development Server
-Boot up the Vite development server locally:
-```bash
+# Start development server
 npm run dev
 ```
 
-The server will run at `http://localhost:3000` (or another free port shown in the console). Open it in your web browser to view your QR Studio instance!
+Open:
 
-### 4. Build for Production
-To bundle the static application assets for production deployment:
-```bash
-npm run build
 ```
-This outputs compiled, optimized assets to the `dist/` directory.
+http://localhost:3000
+```
+
+in your browser.
 
 ---
 
-## License & Copyright
+# 👩‍💻 Author
 
-&copy; 2026 QR Studio Inc. • All Rights Reserved Nazneen Rizvi
+**Nazneen Rizvi**
+
+- GitHub: https://github.com/NazneenRizvi
+- Portfolio: https://portfolio-site-v2-dusky.vercel.app
+- Email: rizvinazneen896@gmail.com
+
+---
+
+<p align="center">
+⭐ If you found this project useful, consider giving it a star!
+</p>
